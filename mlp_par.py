@@ -30,8 +30,7 @@ LOG_ERR =os.path.join(BASE_DIR, "logs/cage_error.log")
 LOG_PRINT =os.path.join(BASE_DIR, "logs/cage_print.txt")  
     # file for copying/redirecting system output
 
-JWT_ADMIN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJidXNpbmVzc19vbiIsInVzZXJfbmFtZSI6ImNvd29ya2VyIiwiaWF0IjoxNjEyMTAwNDE0LCJleHAiOjE2NDM2MzY0MTQsInBlcm1pc3Npb24iOiJhZG1pbiIsImZvbGRlciI6W10sInNpemUiOi0xfQ._Tz3kYLrSTwzzFT9XPuL1gmJhV_MN3g4rsg-23f4WZ0"
-    # JWT token for authorizing on Cageserver
+JWT_ADMIN =     # JWT token for authorizing on Cageserver
 
 # logistic function
 def logistic(x):
