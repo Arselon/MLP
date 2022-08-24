@@ -14,7 +14,7 @@ from cage_api import *
 from cage_api.cage_err import Logger
 
 from mlp_par import *
-from mlp1 import mlp1_RAM, mlp2_RAM, load_train_valid, mlp_train_valid, mlp_load_exec
+from mlp1 import load_train_valid, mlp_train_valid, mlp_load_exec
 
 
 #----------------------------------------------------------------------------------------
